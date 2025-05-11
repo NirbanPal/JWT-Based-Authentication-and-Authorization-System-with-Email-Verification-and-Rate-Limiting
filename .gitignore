@@ -57,5 +57,5 @@ logs/
 
 # Test output
 /test-output/
-src/main/java/com/example/SMSApp/exception/EmailSendingException.java
+
 
