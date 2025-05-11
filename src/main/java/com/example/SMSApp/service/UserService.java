@@ -34,7 +34,6 @@ public class UserService implements UserDetailsService {
             );
         } catch (IllegalArgumentException e) {
             // If publicId is not a valid UUID, try to find by email It will work at the time of login
-//            System.out.println(publicId);
             AppUser user = userRepository.findByEmail(publicId)
                     .orElseThrow(() -> new UsernameNotFoundException("User not found with email: " + publicId));
             System.out.println("Working with Email");

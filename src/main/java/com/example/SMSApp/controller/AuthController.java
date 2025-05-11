@@ -2,7 +2,6 @@ package com.example.SMSApp.controller;
 
 import com.example.SMSApp.dto.AuthRequest;
 import com.example.SMSApp.dto.AuthResponse;
-import com.example.SMSApp.repository.UserRepository;
 import com.example.SMSApp.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
